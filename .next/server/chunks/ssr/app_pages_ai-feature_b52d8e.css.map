@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack://[project]/app/pages/ai-feature.css"],"sourcesContent":[".ai-pricing-title{\n    margin-top: 120px !important;\n}\n.ai-title{\n    line-height: 130% !important;\n    font-size: 3rem;\n}"],"names":[],"mappings":"AAAA;;;;AAGA"}},
+    {"offset": {"line": 9, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

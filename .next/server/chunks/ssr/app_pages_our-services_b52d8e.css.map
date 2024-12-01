@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack://[project]/app/pages/our-services.css"],"sourcesContent":[".our-services-section{\n    min-height: auto;\n}\n#our-services{\n    background-color: black;\n    color: white;\n    padding: 60px 0;\n}\n.why-us-grid {\n    height: 300px;\n    justify-content: space-between;\n    align-items: stretch;\n    width: 100%;\n    gap: 12px;\n    margin-top: 5%;\n  }\n  .why-us-card {\n    border-radius: 14px;\n    border: 1px solid #666;\n    background: linear-gradient(\n      90deg,\n      rgba(106, 106, 106, 0.15) 0,\n      rgba(255, 255, 255, 0.1) 100%\n    );\n    flex: 1;\n    margin: 0;\n    font-size: 14px;\n    display: flex;\n    flex-direction: column;\n    justify-content: space-between;\n  }\n  .why-us-card img {\n    width: 60px;\n  }\n  .whyus-title {\n    color: #fff;\n    font-size: 24px;\n  }\n  .whyus-desc {\n    color: #cecece;\n    line-height: 210%;\n  }\n  @media (max-width: 768px) {\n    .why-us-grid {\n      flex-direction: column;\n      height: auto; \n    }\n  \n    .why-us-card {\n      width: 100%; \n      margin: 0 auto;\n    }\n  }\n  "],"names":[],"mappings":"AAAA;;;;AAGA;;;;;;AAKA;;;;;;;;;AAQE;;;;;;;;;;;;AAeA;;;;AAGA;;;;;AAIA;;;;;AAIA;EACE;;;;;EAKA"}},
+    {"offset": {"line": 57, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

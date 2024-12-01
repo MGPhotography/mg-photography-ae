@@ -1,0 +1,13 @@
+/* [project]/app/india/navbar.css [app-client] (css) */
+.enquireNow {
+  border-radius: 50px;
+  background: #09f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  color: #fff;
+  padding: 12px 18px !important;
+}
+
+/*# sourceMappingURL=app_india_navbar_b52d8e.css.map*/

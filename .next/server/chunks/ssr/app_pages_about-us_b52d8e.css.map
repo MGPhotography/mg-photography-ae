@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack://[project]/app/pages/about-us.css"],"sourcesContent":[".about-us-row{\n    background-color: #FAFAFA;\n}\n.About-Us-Tagline{\n    color: #0077FF;\n}\n.About-Us-Heading{\n    line-height: 160%;\n}\n.About-Us-Desc{\n    line-height: 200%;\n}\n.enquireNow{\n    border-radius: 50px;\n    background: #09F;\n    backdrop-filter: blur(27px);\n    display: flex;\n    padding: 16px 36px;\n    justify-content: center;\n    align-items: center;\n    gap: 10px;\n    color: white;\n}"],"names":[],"mappings":"AAAA;;;;AAGA;;;;AAGA;;;;AAGA;;;;AAGA"}},
+    {"offset": {"line": 28, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

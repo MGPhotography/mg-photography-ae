@@ -1,0 +1,10 @@
+.enquireNow{
+    border-radius: 50px;
+    background: #09F;
+    display: flex;
+    padding: 12px 18px !important;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    color: white;
+}

@@ -1,0 +1,30 @@
+/* [project]/app/pages/about-us.css [app-client] (css) */
+.about-us-row {
+  background-color: #fafafa;
+}
+
+.About-Us-Tagline {
+  color: #07f;
+}
+
+.About-Us-Heading {
+  line-height: 160%;
+}
+
+.About-Us-Desc {
+  line-height: 200%;
+}
+
+.enquireNow {
+  border-radius: 50px;
+  background: #09f;
+  backdrop-filter: blur(27px);
+  display: flex;
+  padding: 16px 36px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  color: #fff;
+}
+
+/*# sourceMappingURL=app_pages_about-us_b52d8e.css.map*/

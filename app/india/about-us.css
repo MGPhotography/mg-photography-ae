@@ -1,0 +1,23 @@
+.about-us-row{
+    background-color: #FAFAFA;
+}
+.About-Us-Tagline{
+    color: #0077FF;
+}
+.About-Us-Heading{
+    line-height: 160%;
+}
+.About-Us-Desc{
+    line-height: 200%;
+}
+.enquireNow{
+    border-radius: 50px;
+    background: #09F;
+    backdrop-filter: blur(27px);
+    display: flex;
+    padding: 16px 36px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: white;
+}

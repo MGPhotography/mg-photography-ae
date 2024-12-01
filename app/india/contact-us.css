@@ -1,0 +1,12 @@
+
+.about-us-details{
+    background-color: #FAFAFA;
+}
+.about-us-details{
+    width: 32%;
+    padding: 40px 0 !important;
+}
+.mail,.mobile,.location{
+    font-size: 14px;
+}
+

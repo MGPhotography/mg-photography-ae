@@ -1,0 +1,59 @@
+/* [project]/app/pages/our-services.css [app-client] (css) */
+.our-services-section {
+  min-height: auto;
+}
+
+#our-services {
+  background-color: #000;
+  color: #fff;
+  padding: 60px 0;
+}
+
+.why-us-grid {
+  height: 300px;
+  justify-content: space-between;
+  align-items: stretch;
+  width: 100%;
+  gap: 12px;
+  margin-top: 5%;
+}
+
+.why-us-card {
+  border-radius: 14px;
+  border: 1px solid #666;
+  background: linear-gradient(90deg, #6a6a6a26 0, #ffffff1a 100%);
+  flex: 1;
+  margin: 0;
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.why-us-card img {
+  width: 60px;
+}
+
+.whyus-title {
+  color: #fff;
+  font-size: 24px;
+}
+
+.whyus-desc {
+  color: #cecece;
+  line-height: 210%;
+}
+
+@media (width <= 768px) {
+  .why-us-grid {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .why-us-card {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
+/*# sourceMappingURL=app_pages_our-services_b52d8e.css.map*/

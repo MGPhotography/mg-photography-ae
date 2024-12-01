@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack://[project]/app/fonts.css"],"sourcesContent":["@font-face {\n    font-family: 'GeneralSans-Variable';\n    src: url('./fonts/GeneralSans-Variable.ttf') format('truetype');\n  }\n  \n"],"names":[],"mappings":"AAAA"}},
+    {"offset": {"line": 5, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

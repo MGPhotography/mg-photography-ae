@@ -1,0 +1,12 @@
+/* [project]/app/pages/contact-us.css [app-client] (css) */
+.about-us-details {
+  background-color: #fafafa;
+  width: 32%;
+  padding: 40px 0 !important;
+}
+
+.mail, .mobile, .location {
+  font-size: 14px;
+}
+
+/*# sourceMappingURL=app_pages_contact-us_b52d8e.css.map*/

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack://[project]/app/pages/contact-us.css"],"sourcesContent":["\n.about-us-details{\n    background-color: #FAFAFA;\n    width: 32%;\n    padding: 40px 0 !important;\n}\n.mail,.mobile,.location{\n    font-size: 14px;\n}\n\n"],"names":[],"mappings":"AACA;;;;;;AAKA"}},
+    {"offset": {"line": 10, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

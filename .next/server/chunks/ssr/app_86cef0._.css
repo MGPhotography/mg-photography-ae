@@ -1,0 +1,298 @@
+/* [project]/app/pages/about-us.css [app-client] (css) */
+.about-us-row {
+  background-color: #fafafa;
+}
+
+.About-Us-Tagline {
+  color: #07f;
+}
+
+.About-Us-Heading {
+  line-height: 160%;
+}
+
+.About-Us-Desc {
+  line-height: 200%;
+}
+
+.enquireNow {
+  border-radius: 50px;
+  background: #09f;
+  backdrop-filter: blur(27px);
+  display: flex;
+  padding: 16px 36px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  color: #fff;
+}
+
+
+/* [project]/app/pages/our-services.css [app-client] (css) */
+.our-services-section {
+  min-height: auto;
+}
+
+#our-services {
+  background-color: #000;
+  color: #fff;
+  padding: 60px 0;
+}
+
+.why-us-grid {
+  height: 300px;
+  justify-content: space-between;
+  align-items: stretch;
+  width: 100%;
+  gap: 12px;
+  margin-top: 5%;
+}
+
+.why-us-card {
+  border-radius: 14px;
+  border: 1px solid #666;
+  background: linear-gradient(90deg, #6a6a6a26 0, #ffffff1a 100%);
+  flex: 1;
+  margin: 0;
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.why-us-card img {
+  width: 60px;
+}
+
+.whyus-title {
+  color: #fff;
+  font-size: 24px;
+}
+
+.whyus-desc {
+  color: #cecece;
+  line-height: 210%;
+}
+
+@media (width <= 768px) {
+  .why-us-grid {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .why-us-card {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
+
+/* [project]/app/pages/FAQ.css [app-client] (css) */
+.faq-section {
+  min-height: 100vh;
+}
+
+
+/* [project]/app/pages/pricing.css [app-client] (css) */
+.pricing {
+  margin-bottom: 120px;
+}
+
+.pricing-content {
+  padding: 10% 0;
+}
+
+.why-us-grid {
+  height: 300px;
+  justify-content: space-between;
+  align-items: stretch;
+  width: 100%;
+  gap: 12px;
+  margin-top: 5%;
+}
+
+.why-us-card {
+  border-radius: 14px;
+  border: 1px solid #666;
+  color: #fff;
+  background: linear-gradient(90deg, #6a6a6a26 0, #ffffff1a 100%);
+  flex: 1;
+  margin: 0;
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.why-us-card img {
+  width: 60px;
+}
+
+.whyus-title {
+  color: #fff;
+  font-size: 24px;
+}
+
+.whyus-desc {
+  color: #cecece;
+  line-height: 210%;
+}
+
+@media (width <= 768px) {
+  .why-us-grid {
+    flex-direction: column;
+    gap: 16px;
+    height: auto;
+  }
+
+  .why-us-card {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
+.head {
+  color: #fff;
+}
+
+.sub-head {
+  color: #aaa;
+}
+
+.pricing {
+  padding: 5%;
+  margin-bottom: 120px;
+}
+
+.recommended-pricing {
+  background: linear-gradient(100deg, #00a6ff 0%, #4d00ff 100%) !important;
+  border: unset !important;
+}
+
+.points-img {
+  height: auto;
+  width: 40px !important;
+}
+
+.book-now-btn {
+  background-color: #fff;
+  color: #000;
+  border-radius: 4px;
+}
+
+.price-amount {
+  font-size: 44px;
+}
+
+.package-name {
+  font-weight: 600;
+}
+
+
+/* [project]/app/pages/blogs.css [app-client] (css) */
+.blogs-section {
+  margin-bottom: 120px;
+  color: #000;
+  background: #fafafa !important;
+}
+
+.blogs-container {
+  padding: 5%;
+}
+
+.blogs-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: stretch;
+  gap: 16px;
+  margin-top: 5%;
+}
+
+.blog-card {
+  flex: calc(33.333% - 16px);
+  box-sizing: border-box;
+  border-radius: 14px;
+  border: 1px solid #ededed;
+  color: #000;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 0 10px 10px -10px #2123261a;
+}
+
+@media (width <= 768px) {
+  .blog-card {
+    flex: 100%;
+  }
+}
+
+.blog-thumbnail {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.blog-title {
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-size: 16px !important;
+}
+
+.blog-desc {
+  font-size: 14px;
+  color: #777;
+}
+
+.read-more-btn {
+  background-color: #000;
+  color: #fff;
+  border-radius: 4px;
+}
+
+@media (width <= 768px) {
+  .blogs-grid {
+    flex-direction: column;
+    gap: 16px;
+    height: auto;
+  }
+
+  .blog-card {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
+.blog-head {
+  color: #000;
+}
+
+.sub-head {
+  color: #aaa;
+}
+
+.blog-desc {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: normal;
+}
+
+
+/* [project]/app/india/navbar.css [app-client] (css) */
+.enquireNow {
+  border-radius: 50px;
+  background: #09f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  color: #fff;
+  padding: 12px 18px !important;
+}
+
+
+/*# sourceMappingURL=app_86cef0._.css.map*/
