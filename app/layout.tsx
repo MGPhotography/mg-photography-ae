@@ -10,7 +10,7 @@ const generalsans = localFont({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://mgphotographyae.com'), // Important for canonical URLs
+  metadataBase: new URL('https://mgphotographyae.com'),
   title: {
     default: "MG Photography | Best Wedding & Baby Photoshoot in Dubai, UAE",
     template: "%s | MG Photography"
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     type: 'website',
     images: [
       {
-        url: '/images/mg_photography_baby.jpg', // Replace with your og image
+        url: '/images/mg_photography_baby.jpg',
         width: 1200,
         height: 630,
       },
@@ -41,7 +41,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'MG Photography - Professional Photography Services',
     description: 'Wedding and baby photoshoot specialists in Dubai, UAE',
-    images: ['/images/mg_photography_baby.jpg'], // Replace with your twitter card image
+    images: ['/images/mg_photography_baby.jpg'],
   },
   alternates: {
     canonical: '/'
@@ -56,6 +56,35 @@ export const metadata: Metadata = {
       'max-image-preview': 'large',
       'max-video-preview': -1
     }
+  },
+  // Add favicon configurations
+  icons: {
+    icon: [
+      { 
+        url: '/images/favicon-96x96.png', 
+        sizes: '96x96', 
+        type: 'image/png' 
+      },
+      { 
+        url: '/images/favicon.svg', 
+        type: 'image/svg+xml' 
+      },
+      { 
+        url: '/images/favicon.ico' 
+      }
+    ],
+    apple: [
+      { 
+        url: '/images/apple-touch-icon.png', 
+        sizes: '180x180' 
+      }
+    ],
+    other: [
+      {
+        rel: 'manifest',
+        url: '/site.webmanifest'
+      }
+    ]
   }
 };
 
