@@ -3,6 +3,8 @@ import localFont from "next/font/local";
 import "./globals.css";
 import "./fonts.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { Analytics } from '@vercel/analytics/next';
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 const generalsans = localFont({
   src: "./fonts/GeneralSans-Variable.ttf",
@@ -155,6 +157,8 @@ export default function RootLayout({
       </head>
       <body className={`${generalsans.variable} antialiased`}>
         {children}
+        <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   );
