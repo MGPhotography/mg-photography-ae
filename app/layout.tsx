@@ -12,7 +12,7 @@ const generalsans = localFont({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://mgphotographyae.com'),
+  metadataBase: new URL('https://mgphotography.ae'),
   title: {
     default: "MG Photography | Best Wedding & Baby Photoshoot in Dubai, UAE",
     template: "%s | MG Photography"
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "MG Photography - Capturing Beautiful Moments",
     description: "Premier photography studio in Dubai specializing in wedding and baby photoshoots",
-    url: 'https://mgphotographyae.com',
+    url: 'https://mgphotography.ae',
     siteName: 'MG Photography',
     type: 'website',
     images: [
@@ -51,6 +51,9 @@ export const metadata: Metadata = {
   robots: {
     index: true,
     follow: true,
+    'max-snippet': -1,
+    'max-image-preview': 'large',
+    'nocache': true,
     googleBot: {
       index: true,
       follow: true,
@@ -80,12 +83,6 @@ export const metadata: Metadata = {
         url: '/images/apple-touch-icon.png', 
         sizes: '180x180' 
       }
-    ],
-    other: [
-      {
-        rel: 'manifest',
-        url: '/site.webmanifest'
-      }
     ]
   }
 };
@@ -94,9 +91,9 @@ export const metadata: Metadata = {
 function generateJsonLd() {
   return {
     "@context": "https://schema.org",
-    "@type": "LocalBusiness",
+    "@type": "PhotoStudio",
     "name": "MG Photography",
-    "image": "https://mgphotographyae.com/logo.jpg",
+    "image": "https://mgphotography.ae/images/favicon-96x96.png",
     "description": "Premier photography studio specializing in wedding, baby, and portrait photography in Dubai, UAE",
     "address": {
       "@type": "PostalAddress",
@@ -106,7 +103,7 @@ function generateJsonLd() {
       "postalCode": "00000",
       "addressCountry": "AE"
     },
-    "url": "https://mgphotographyae.com",
+    "url": "https://mgphotography.ae",
     "telephone": "+917373031924",
     "priceRange": "AED3000",
     "openingHoursSpecification": {
@@ -122,18 +119,28 @@ function generateJsonLd() {
       "opens": "09:00",
       "closes": "18:00"
     },
+    "potentialAction": {
+      "@type": "ReserveAction",
+      "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": "https://mgphotography.ae",
+      }
+    },
     "service": [
       {
         "@type": "Service",
-        "name": "Wedding Photography"
+        "name": "Wedding Photography",
+         "description": "Comprehensive wedding day coverage in Dubai and UAE"
       },
       {
         "@type": "Service",
-        "name": "Baby Photoshoot"
+        "name": "Baby Photoshoot",
+        "description": "Newborn and infant photography sessions"
       },
       {
         "@type": "Service",
-        "name": "Event Photography"
+        "name": "Event Photography",
+        "description": "Professional individual and family portrait sessions"
       }
     ]
   };
@@ -155,7 +162,9 @@ export default function RootLayout({
           }}
         />
         <meta name="google-site-verification" content="idoPDpyA4egD24KvhEccfIQngONezEwLLSPH9q0YZRY" />
-
+        <link rel="icon" href="/images/favicon.ico" type="image/x-icon" />
+        <link rel="icon" href="/images/favicon-96x96.png" sizes="96x96" type="image/png" />
+        <link rel="apple-touch-icon" href="/images/apple-touch-icon.png" sizes="180x180" />
       </head>
       <body className={`${generalsans.variable} antialiased`}>
         {children}
